@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E6F6FD;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 10px 0 10px 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.app-main{
+  padding:40px 10px;
+  width: 400px;
+  min-height: calc( 100vh - 30px );
+  background-color: #fefefe;
+  box-shadow: 0 2px 39px 0 #6a747e;
+  border-radius: 10px;
+}
+p {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+@font-face {
+  font-family: os-reg;
+  src: url('./Assets/Fonts/OpenSans-Regular.ttf') format('opentype');
+  font-style: normal;
+  font-display: swap;
 }

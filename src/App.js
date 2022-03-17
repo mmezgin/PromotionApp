@@ -20,10 +20,12 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <Routes>
-          <Route exact path="/" element={<Dashboard />} />
-          <Route exact path="/campaign" element={<Detail />} />
-        </Routes>
+        <div className='app-main'>
+          <Routes>
+            <Route exact path="/" element={<Dashboard />} />
+            <Route exact path="/campaign" element={<Detail />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </Provider>
   );
