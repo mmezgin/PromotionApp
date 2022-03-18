@@ -24,7 +24,7 @@ code {
   box-shadow: 0 2px 39px 0 #6a747e;
   border-radius: 10px;
 }
-p {
+.noselect { 
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
