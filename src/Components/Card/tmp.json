@@ -1,0 +1,63 @@
+{
+    "slider":[
+    {
+        "BrandIconColor": "#FFFFFF",
+        "BrandIconUrl": "https://prod-extrazone-document-bucket.s3.eu-west-1.amazonaws.com/brand/tr/2938a1bb-5188-4415-9c85-8f7214f60760/desktop/2938a1bb-5188-4415-9c85-8f7214f60760.png",
+        "Id": 19,
+        "ImageUrl": "https://prod-extrazone-document-bucket.s3-eu-west-1.amazonaws.com/promotion/tr/39b6d4a7-a370-4113-8be4-6ea10784c051/tr/desktop/39b6d4a7-a370-4113-8be4-6ea10784c051.png",
+        "PromotionCardColor": "#F40000",
+        "RemainingText": "Son 10 gün",
+        "SeoName": "bk-weekly-promo-2022",
+        "Title": "Burger King Ulti Zero Menülerinde 1+1 Fırsatı!",
+        "ScenarioType": "Default"
+    },
+    {
+        "BrandIconColor": "#FFFFFF",
+        "BrandIconUrl": "https://prod-extrazone-document-bucket.s3.eu-west-1.amazonaws.com/brand/tr/2938a1bb-5188-4415-9c85-8f7214f60760/desktop/2938a1bb-5188-4415-9c85-8f7214f60760.png",
+        "Id": 18,
+        "ImageUrl": "https://prod-extrazone-document-bucket.s3.eu-west-1.amazonaws.com/promotion/tr/af665f5f-b351-434a-afc5-1d130bed357b/tr/desktop/af665f5f-b351-434a-afc5-1d130bed357b.png",
+        "PromotionCardColor": "#F40000",
+        "RemainingText": "Son 10 gün",
+        "SeoName": "popeyes-weekly-promo-2022",
+        "Title": "Popeyes Ulti Zero Menülerinde 1+1 Fırsatı!",
+        "ScenarioType": "Default"
+    },
+    {
+        "BrandIconColor": "#FFFFFF",
+        "BrandIconUrl": "https://prod-extrazone-document-bucket.s3.eu-west-1.amazonaws.com/brand/tr/2938a1bb-5188-4415-9c85-8f7214f60760/desktop/2938a1bb-5188-4415-9c85-8f7214f60760.png",
+        "Id": 17,
+        "ImageUrl": "https://prod-extrazone-document-bucket.s3-eu-west-1.amazonaws.com/promotion/tr/6c9bb76a-5583-4c12-bbf7-fb742fd291ce/tr/desktop/6c9bb76a-5583-4c12-bbf7-fb742fd291ce.jpeg",
+        "PromotionCardColor": "#F40000",
+        "RemainingText": "21.04.2022",
+        "SeoName": "gain-promo-2022",
+        "Title": "1 aylık Gain üyeliği hediye!",
+        "ScenarioType": "Default"
+    }
+],
+"tagList":[
+    {
+        "IconUrl": "https://prod-extrazone-document-bucket.s3.eu-west-1.amazonaws.com/tag/tr/728b466a-4024-48bc-b382-e52900f49915/desktop/728b466a-4024-48bc-b382-e52900f49915.png",
+        "Id": 3,
+        "Name": "Coca-Cola",
+        "Rank": 1
+    },
+    {
+        "IconUrl": "https://prod-extrazone-document-bucket.s3-eu-west-1.amazonaws.com/tag/tr/761ef3e1-5493-47d4-a94d-9e22d67e41a7/tr/desktop/761ef3e1-5493-47d4-a94d-9e22d67e41a7.png",
+        "Id": 13,
+        "Name": "Gain",
+        "Rank": 1
+    },
+    {
+        "IconUrl": "https://prod-extrazone-document-bucket.s3-eu-west-1.amazonaws.com/tag/tr/33eb4cd1-48cd-47e7-b6b7-a13a95fe99f6/tr/desktop/33eb4cd1-48cd-47e7-b6b7-a13a95fe99f6.png",
+        "Id": 14,
+        "Name": "Popeyes",
+        "Rank": 4
+    },
+    {
+        "IconUrl": "https://prod-extrazone-document-bucket.s3-eu-west-1.amazonaws.com/tag/tr/50fa9e29-ed4f-487c-ad60-d569ed2e3e72/tr/desktop/50fa9e29-ed4f-487c-ad60-d569ed2e3e72.png",
+        "Id": 7,
+        "Name": "Burger King",
+        "Rank": 5
+    }
+]
+}
