@@ -21,7 +21,7 @@ code {
   width: 25vw;
   min-width: 370px; 
   max-width: 450px; 
-  height: calc(100% + 80px);
+  height: 90vh;
   background-color: #fefefe;
   box-shadow: 0 2px 39px 0 #6a747e;
   border-radius: 10px;

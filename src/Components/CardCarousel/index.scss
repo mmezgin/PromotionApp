@@ -1,6 +1,6 @@
 .card-background{
     display: flex;
-    height: auto;
+    height: 378px;
     width: 300px;
     background-image: url("https://lun-eu.icons8.com/a/Ch3B7tlhIUOKQN6wW7MWJQ/p8mjmN1GXkCvJrQe14-hFA/Rectangle%20Copy.svg");
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     flex: 1;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 355px;
     border-radius: 5px 5px 10px 20px;
     border:3px solid #F4F6F5;
     background-color: #fff;
@@ -99,6 +99,7 @@
 
 .carousel-con{
     display: flex;
+    height: auto;
     align-items: center;
     overflow: scroll;
     white-space: nowrap;
@@ -106,9 +107,6 @@
     scrollbar-width: none;
     position: relative;
     width:100%;
-    //min-height: 380px;
-    height: auto;
-    //max-height: 600px;
     border:1px solid blue;
    
 }
@@ -171,7 +169,10 @@
         border: none;
     }
   }
-
+.react-multi-carousel-list{
+    height: 60vh !important;
+    min-height: 400px !important;
+}
 
 
 
