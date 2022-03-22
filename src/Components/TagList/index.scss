@@ -3,6 +3,7 @@
   height: 40px;
   display: flex;
   align-items: center;
+  margin:0 2px;
 }
 .tag{
   width: 105px;
@@ -27,7 +28,22 @@
 }
 .tag-name{
   font-size: 12px;
-  font-weight: 550;
+  font-weight: 600;
   font-family: os-reg;
   color:#1D1E1C;
+}
+.taglist-container{
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+  height: 70px;
+  width: calc(100% - 20px);
+  align-items: center;
+  padding: 0 10px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: auto;
+}
+.taglist-container::-webkit-scrollbar{
+  display: none;
 }
