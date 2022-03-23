@@ -1,14 +1,14 @@
 const initial_data = {
-  data: null
+  data: -1
 
 }
-const Example_Reducer = (state = initial_data, action) => {
+const TagId_Reducer = (state = initial_data, action) => {
   switch (action.type) {
-    case 'example':
+    case 'tagId':
       return { ...state, data: action.payload, error: '' }
 
     default:
       return state
   }
 }
-export default Example_Reducer
+export default TagId_Reducer

@@ -4,6 +4,14 @@
     width: 300px;
     background-image: url("https://lun-eu.icons8.com/a/Ch3B7tlhIUOKQN6wW7MWJQ/p8mjmN1GXkCvJrQe14-hFA/Rectangle%20Copy.svg");
     background-repeat: no-repeat;
+    cursor: pointer;
+}
+.card-background:hover{
+    opacity: 0.5;
+
+}
+.card-background:active{
+    transform:translateY(1px);
 }
 .card-con{
     display: flex;
@@ -96,7 +104,6 @@
         margin: 0 !important;
     }
 }
-
 .carousel-con{
     display: flex;
     height: auto;
@@ -107,11 +114,7 @@
     scrollbar-width: none;
     position: relative;
     width:100%;
-    border:1px solid blue;
-   
 }
-
-
 .dots-container{
     bottom: 0;
     left: 0;
@@ -120,9 +123,7 @@
     align-items: center;
     width: 100%;
     height: 10px;
-    
 }
-
 .dots-active{
     width: 19px;
     height: 9px;
@@ -141,13 +142,9 @@
     cursor: pointer;
     border: none;
 }
-
-
 @media only screen and (max-width: 300px) {
     .dots-container{
-        
         margin-bottom: 80px;
-        
     }
     
     .dots-active{
@@ -158,7 +155,6 @@
         background-color: red;
         border: none;
     }
-    
     .dots{
         width: 9px;
         height: 9px;

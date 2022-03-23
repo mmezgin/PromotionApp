@@ -3,10 +3,15 @@ import './index.scss'
 import Card from './Card'
 import axios from 'axios'
 import Carousel from 'react-multi-carousel'
-import "react-multi-carousel/lib/styles.css";
+import "react-multi-carousel/lib/styles.css"
+import { useSelector } from 'react-redux'
 export default ()=>{
+    const tagId =useSelector(state=>state.Reducer1.data)
     const [data,setData]=useState(null)
     const carouselItems = [];
+    useEffect(()=>{
+      console.log('reducer '+tagId)
+  },[tagId])
     useEffect(()=>{
         try {
             axios
@@ -21,6 +26,7 @@ export default ()=>{
             })
             .then((response) => {
                 setData(response.data)
+                console.log(response.data)
             })
             } catch (error) {
                 console.log(error)
@@ -34,8 +40,6 @@ export default ()=>{
               active,
               carouselState: { currentSlide, deviceType }
             } = rest;
-            
-            
             return (
               
               <button
@@ -44,28 +48,26 @@ export default ()=>{
               >
                 {React.Children.toArray(carouselItems)[index]}
               </button>
-              
             );
           };
-
             const responsive = {
                 desktop: {
                   breakpoint: { max: 3000, min: 1024 },
                   items: 1,
                   slidesToSlide: 1, 
-                  partialVisibilityGutter: 30
+                  partialVisibilityGutter: 40
                 },
                 tablet: {
                   breakpoint: { max: 1024, min: 464 },
                   items: 1,
                   slidesToSlide: 1, 
-                  partialVisibilityGutter: 30
+                  partialVisibilityGutter: 40
                 },
                 mobile: {
                   breakpoint: { max: 464, min: 0 },
                   items: 1,
                   slidesToSlide: 1, 
-                  partialVisibilityGutter: 30
+                  partialVisibilityGutter: 40
                 }
               };
 
@@ -77,17 +79,22 @@ export default ()=>{
                 draggable={true}
                 showDots={true}
                 ssr={true}
+                autoPlay={true}
                 arrows={false}
-                infinite={false}
+                infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 partialVisible={true}
                 containerClass="carousel-con"
                 customDot={<CustomDot/>}>
-                  {data.map((item)=>{
-                      return(
-                          <Card item={item} />
-                      )
-                  })}
+                  {
+                  tagId==3 || tagId==7 ? <Card item={data[1]} />//burgerKing and cocaCola
+                : tagId==13 ?<Card item={data[2]} />//gain
+                : tagId==14 ?<Card item={data[0]} />//popeyes
+                : data.map((item)=>{//all 
+                  return(
+                      <Card item={item} />
+                  )})
+              }
                 </Carousel>
             )}
             return(
